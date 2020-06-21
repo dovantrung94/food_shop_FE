@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "food-shop": {
@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              {"input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"},
+              {"input": "src/styles.scss"}
             ],
-            "scripts": []
+            "scripts": [
+              {"input": "./node_modules/jquery/dist/jquery.min.js"},
+              {"input": "./node_modules/bootstrap/dist/js/bootstrap.min.js"}
+            ]
           },
           "configurations": {
             "production": {
