@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MenuLeftComponent } from './common/menu-left/menu-left.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuLeftComponent
   ],
   imports: [
     BrowserModule,

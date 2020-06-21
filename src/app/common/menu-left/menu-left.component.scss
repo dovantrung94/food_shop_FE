@@ -1,0 +1,44 @@
+.component-menu-left {
+    color: white;
+        .title-main {
+            font-size: 20px;
+            text-transform: uppercase;
+            padding: 12px;
+            border-bottom: 1px solid #738cff;
+        }
+        .infor-user {
+            border-bottom: 1px solid #738cff;
+            margin-bottom: 20px;
+            .box-name {
+                position: relative;
+                height: 60px;
+                line-height: 60px;
+                img {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 12px;
+                    top: 12px;
+                }
+            }
+            .user-name {
+                margin-left: 60px;
+            }
+
+        }
+        .custom-item {
+            height: 40px;
+            padding: 4px 12px;
+            position: relative;
+            .short-name {
+                width: 20px;
+                position: absolute;
+                left: 12px;
+            }
+            .full-name {
+                margin-left: 48px;
+            }
+        }
+}
+
